@@ -4,7 +4,9 @@ import { Button, Card } from 'react-bootstrap'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+        <h1>Gallery</h1>
+    </div>
   )
 }
 
