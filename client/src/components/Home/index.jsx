@@ -1,15 +1,18 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './style.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./style.css";
 
 const Home = () => {
   return (
     <div>
-        <h1>Home</h1>
-        <p>This is the home page</p>
-    
+      <div className="intro">
+        <p>
+          Welcome to Clifftography! This is where I'll be posting all of my best
+          work. If you are interested in anything please reach out!
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
