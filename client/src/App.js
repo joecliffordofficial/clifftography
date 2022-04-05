@@ -26,6 +26,7 @@ function App() {
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path='/cart' component={Cart} />
         </Routes>
+        {/*Hellooooooo I'm Back! */}
       {/* </div> */}
     </Router>
     <Footer />
